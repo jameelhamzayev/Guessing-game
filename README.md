@@ -13,9 +13,9 @@ while True:
     success, img = camera.read() 
     if success:
         cv2.imshow('Video', img)
-    #if you pressed "q" key it'll break the loop
+    #if you pressed "x" key it'll break the loop
     k = cv2.waitKey(1)
-    if k == ord('q'):
+    if k == ord('x'):
         break
 
 # release your camera device and close the OpenCV windows
